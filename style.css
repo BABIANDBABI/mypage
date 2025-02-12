@@ -1,0 +1,87 @@
+body
+{
+    background-image: url('gallery3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.links a{
+    padding-inline: 10px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.links{
+    padding-left: 500px;
+}
+
+.button{
+    padding-left: 450px;
+    
+}
+
+.button button{
+    font-weight: bold;
+}
+
+#btn1{
+    padding: 9px;
+    width: 80px;
+    padding-right: 9px;
+    border: none;
+    background-color: aliceblue;
+}
+
+#btn2{
+    padding: 9px;
+    width: 120px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    color: #ffffff;
+    width: 500px;
+    padding-left: 90px;
+    padding-top: 150px;
+}
+
+.head{
+    font-size: 70px;
+}
+
+#paragraph{
+    padding: 20px;
+}
+
+.sub-btn button{
+    padding: 12px;
+    font-weight: bold;
+    padding-inline: 5px;
+}
+
+#browse{
+    background-color: black;
+    border: 2px;
+    border-color: #ffffff;
+    color: #f6e5e5;
+    padding-left: 10px;
+}
+
